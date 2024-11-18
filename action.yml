@@ -1,0 +1,9 @@
+name: 'R2 Backup'
+author: 'Jyotirmoy Bandyopadhayaya'
+description: 'Mirror a repository to a Cloudflare R2 bucket'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'  
+  color: 'orange'
